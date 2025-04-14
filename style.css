@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('fondo.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    h1{
+    margin-left: 30px;
+    margin-right: 100px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500% ;
+    }
+}
+
+sidebar {
+    p{
+        background: linear-gradient(rgba(54, 21, 132, 0.5),#361584);  
+        color:aliceblue;
+        font-family: monospace;
+        padding: 20px;
+        margin-left: 30px;
+        margin-right: 0px;
+        height: 150px;
+        width: 5000px ;
+        border-radius: 1rem;
+        border: 2px solid #8a2be2;
+        box-shadow: 0 0 15px #8a2be2;
+        float: left; /* El párrafo se alinea a la izquierda */
+        width: 60%; /* Ajusta el ancho del párrafo */
+        transition: filter 0.3s ease, box-shadow 0.3s ease;
+    }
+
+
+    p:hover{
+        filter: brightness(1.5);
+        box-shadow: 0 0 25px #8a2be2;
+    }
+}
+
+.icons {
+    display: flex; /* Activa flexbox */
+    justify-content:left;
+    padding: 10px;
+    gap: 180px; /* Espaciado entre las imágenes */
+    margin-top: 328px;
+    margin-left: 40px;
+    margin-right: 440px;
+    background: linear-gradient(rgba(54, 21, 132, 0.5),#361584);  
+    border: 2px solid #8a2be2;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px #8a2be2;
+    transition: filtrer 0,3s ease, box-shadow 0.3s ease;
+}
+
+.icons form {
+    display: inline-block; /* Asegura que los formularios se comporten como bloques en línea */
+}
+
+.icons:hover{
+    filter: brightness(1.5);
+    box-shadow: 0 0 25px #8a2be2;
+}
+
+.portfolio-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.skill-section {
+    background: linear-gradient(rgba(54, 21, 132, 0.5),#361584); 
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-right: 800px;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px #8a2be2;
+    transition: filtrer 0,3s ease, box-shadow 0.3s ease;
+    
+}
+
+.skill-section:hover{
+    filter: brightness(1.5);
+        box-shadow: 0 0 25px #8a2be2;
+}
+
+.skill-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.robotics{
+    background-color: antiquewhite;
+}
